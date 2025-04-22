@@ -20,3 +20,5 @@ export const insertProductsSchema = z.object({
   banner: z.string().nullable(),
   price: currency,
 });
+
+export const signInFormSchema = z.object({});
